@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.title{
+    background-color : #EAF6F6;
+    padding: 190px 0;
+}
+.profile{
+    margin: 100px 0;
+}
+.p-me{
+    margin: 20px auto;
+    width: 30%;
+    line-height: 2;
+}
+.profile img{
+    width: 200px;
+}
+hr{
+    border-style: dotted none none;
+    border-top-width: 7px;
+    border-color: #EAF6F6;    ;
+    width: 5%;
+}
+h1{
+    color: #66BFBF;
+    margin: 50px auto 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+}
+h2{
+    color: #66BFBF;
+    font-size: 2.5rem
+}
+h3{
+    color: #66BFBF;
+    font-family: 'Cabin', sans-serif;
+}
+p{
+    color: #2b2c34;
+    font-family: 'Rubik', sans-serif;
+}
+.skill-row{
+    margin: 100px auto;
+    width: 50%;
+    text-align: start;
+    line-height: 2;
+}
+.pc{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.cal{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+/* .c1{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+.c2{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+} */
+/* .mou{
+    width: 430px;
+} */
+
+.contact-me{
+    margin: 50px auto;
+    width: 40%;
+    margin-bottom: 100px;
+}
+.contact-me p{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.btn{
+    background-color: #66BFBF;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    padding: 10px 8px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #66BFBF;
+}
+.bottom-container{
+
+    background-color: #66BFBF;
+    padding: 40px;
+}
+.footer-link{
+    margin: 10px 20px;
+    color: #11999E;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: #FFFFFF;
+}
+.bottom-container p{
+    margin-bottom: 0;
+    color: #EAF6F6;
+    padding: 20px;
+}
+@media screen and (max-width: 690px){
+    .title{
+        background-color : #EAF6F6;
+        padding: 230px 0;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 1.5rem
+    }
+}
+@media screen and (max-width: 575px){
+    .p-me{
+        width: 70%;
+    }
+    .skill-row{
+        margin: 100px auto;
+        width: 70%;
+        text-align: start;
+        line-height: 2;
+    }
+
+}
+@media screen and (max-width: 550px) {
+    .title{
+        background-color : #EAF6F6;
+        padding: 255px 0;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1rem
+    }
+}
